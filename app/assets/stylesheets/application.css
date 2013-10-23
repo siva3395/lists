@@ -11,3 +11,11 @@
  *= require_self
  *= require_tree .
  */
+
+
+#loading-indicator {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    display: block;
+}

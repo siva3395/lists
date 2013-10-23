@@ -9,6 +9,9 @@
 <body>
 
 <%= yield %>
+<div id="loading-indicator">
+<%= image_tag("ajax-loader.gif", :id => "loading", :style => "display:none") %>
+</div>
 
 </body>
 </html>

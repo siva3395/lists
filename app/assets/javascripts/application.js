@@ -13,3 +13,12 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+
+$(document).bind("ajaxSend", function(){
+   $("#loading").show();
+   $('body').css('opacity',0.6);
+ }).bind("ajaxComplete", function(){
+   $("#loading").hide();
+   $('body').css('opacity',1);
+ });
